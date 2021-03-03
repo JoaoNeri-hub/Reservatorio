@@ -1,14 +1,14 @@
 body{
     margin: 0;
     padding: 90;
-    
+    background:linear-gradient(90deg, #0AEEEE, #16F4F4)
 }
 section{
     width: 100%;
     min-height: 800px;
 }
 .wave{
-    margin-top: o;
+    height: 00px;
     position: relative;
     background: linear-gradient(90deg, #0AEEEE, #16F4F4)
 }
@@ -18,11 +18,27 @@ section{
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 240px;
+    height: 500px;
     background: url(wave.png);
     background-size: cover;
 }
 #reservatorio{
+    margin-top: 150px;
     font-size: 100pt;
-    text-align: center;
+    text-align:center;
+}
+#Branco{
+    background-color: white;
+}
+@media(max-width:600px){
+    .wave > div#reservatorio{
+       padding: auto;
+        display: flex;
+        font-size: 60pt;
+        flex-wrap: wrap;
+        text-align: auto;
+        flex-direction: row;
+        margin-top: 150px;
+        
+    }
 }
